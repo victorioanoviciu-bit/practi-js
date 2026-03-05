@@ -1,0 +1,1 @@
+alert(´Scriptul a rulat´);
