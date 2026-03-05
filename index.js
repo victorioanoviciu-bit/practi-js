@@ -4,4 +4,4 @@ am initializat-o ´=´, am dat o valoare "Victor" **/
 // console.log("Codul a fost executat");//
 var myName ="Victor"
 let secondName ="Ioan";
-const age = 30
+const age = 30;
