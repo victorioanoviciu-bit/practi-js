@@ -64,3 +64,13 @@ console.log(multiplication);
 
 multiplication--;
 console.log(multiplication); 
+
+const number1 = 12;
+const number2 = 12;
+
+console.log(number1 == number2);
+console.log(number1 != number2);
+
+const myNumber = "12";
+
+console.log(number1 !== myNumber);
