@@ -2,9 +2,10 @@
 /** declaram, initializam, dam o valoare (= atribuie o valoare unei variabile), deci am declarat variabila ´var´, 
 am initializat-o "=", am dat o valoare "Victor" **/
 // console.log("Codul a fost executat");//
-var myName ="Victor"
-let secondName ="Ioan";
-const age = 30;
+// var myName ="Victor"
+// let secondName ="Ioan";
+// const age = 30;
+
 // operatori:
 //aritmetici + - / * ++ --
 const sum = 1+1; console.log(sum);
