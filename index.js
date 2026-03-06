@@ -29,3 +29,36 @@ let str = "Acesta este un string";
 
 console.log(str);
 console.log(typeof(str));
+console.log(typeof(num));
+console.log(typeof(boolean));
+console.log(typeof(n));
+console.log(typeof(undf));
+
+// obiect , in interiorul acoladelor avem niste proprietati, fiecare proprietate are o cheie si o valoare, cheile sunt unice, valorile pot fi de orice tip de date
+let person = {
+    age: 30,
+    name: "Victor",
+}
+console.log(person);
+console.log(typeof(person));
+
+// Array, in interiorul parantezelor patrate avem niste elemente, fiecare element are un index, indexul incepe de la 0, elementele pot fi de orice tip de date
+const hobbies = ["Reading", "Biking", "Swimming"];
+console.log(hobbies);
+console.log(typeof(hobbies));
+const prices = [12.5, 13.3, 25.7, 30.1];
+console.log(prices);
+console.log(typeof(prices));
+
+// operatori:
+//aritmetici + - / * ++ --
+const sum = 1+1; console.log(sum);
+const difference = 2-1; console.log(difference);
+const division = 10/5; console.log(division);
+let multiplication = 10*5; console.log(multiplication);
+
+multiplication++;
+console.log(multiplication);
+
+multiplication--;
+console.log(multiplication);
