@@ -1,3 +1,5 @@
+console.log("line-1")
+console.log("line-2")
 // comentariu in js (cu // sau /** pt paragraf): var, let, const sant cele 3 key-worduri mai utilizate //
 /** declaram, initializam, dam o valoare (= atribuie o valoare unei variabile), deci am declarat variabila ´var´, 
 am initializat-o "=", am dat o valoare "Victor" **/
