@@ -6,19 +6,6 @@ am initializat-o "=", am dat o valoare "Victor" **/
 // let secondName ="Ioan";
 // const age = 30;
 
-// operatori:
-//aritmetici + - / * ++ --
-const sum = 1+1; console.log(sum);
-const difference = 2-1; console.log(difference);
-const division = 10/5; console.log(division);
-let multiplication = 10*5; console.log(multiplication);
-
-multiplication++;
-console.log(multiplication);
-
-multiplication--;
-console.log(multiplication);
-
 /* categorii: permisive si obiective */
 /* var - permisiv, poate fi redeclarat, poate fi reasignat, are scope de functie
 let - permisiv, nu poate fi redeclarat, poate fi reasignat, are scope de bloc
@@ -74,4 +61,4 @@ multiplication++;
 console.log(multiplication);
 
 multiplication--;
-console.log(multiplication);
+console.log(multiplication); 
