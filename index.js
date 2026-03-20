@@ -1,3 +1,5 @@
+console.log("line-1")
+console.log("line-2")
 // comentariu in js (cu // sau /** pt paragraf): var, let, const sant cele 3 key-worduri mai utilizate //
 /** declaram, initializam, dam o valoare (= atribuie o valoare unei variabile), deci am declarat variabila ´var´, 
 am initializat-o "=", am dat o valoare "Victor" **/
@@ -6,6 +8,7 @@ am initializat-o "=", am dat o valoare "Victor" **/
 // let secondName ="Ioan";
 // const age = 30;
 
+<<<<<<< HEAD
 // operatori:
 //aritmetici + - / * ++ --
 //const sum = 1+1; console.log(sum);
@@ -19,6 +22,8 @@ am initializat-o "=", am dat o valoare "Victor" **/
 //multiplication--;
 //console.log(multiplication);
 
+=======
+>>>>>>> 7f6246eed6af416fe4fa0ee88d742bc3fbe43e18
 /* categorii: permisive si obiective */
 /* var - permisiv, poate fi redeclarat, poate fi reasignat, are scope de functie
 let - permisiv, nu poate fi redeclarat, poate fi reasignat, are scope de bloc
@@ -74,4 +79,14 @@ multiplication++;
 console.log(multiplication);
 
 multiplication--;
-console.log(multiplication);
+console.log(multiplication); 
+
+const number1 = 12;
+const number2 = 12;
+
+console.log(number1 == number2);
+console.log(number1 != number2);
+
+const myNumber = "12";
+
+console.log(number1 !== myNumber);
