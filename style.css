@@ -32,3 +32,105 @@ nav {
 .logo img {
   width: 40px;
 }
+
+.logo h3 {
+  margin-left: 10px;
+  color: #111;
+  text-decoration: none;
+  font-size: 28px;
+  font-family: RobotoRegular;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-links a {
+  display: block;
+  padding: 30px 16px;
+  color: #111;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: RobotoMedium;
+  text-transform: uppercase;
+  transition: all easy-in-out 100ms;
+}
+
+.nav-links a:hover {
+  backgroundcolor: #39ffde;
+}
+
+.nav-links .nav-cta-button {
+  padding: 10px 18px;
+  margin-left: 16px;
+  border: #39ffde solid 2px;
+  border-radius: 50px;
+}
+
+.nav-links .nav-cta-button:hover {
+  background-color: #39ffde;
+}
+
+.hamburguer {
+  display: none;
+  cursor: pointer;
+  width: 34px;
+}
+
+.hamburguer .bar {
+  flex-basis: 100%;
+  heigth: 4px;
+  background-color: #111;
+  margin: 3px;
+}
+
+/* Responsive design */
+
+@media (max-width: 768px;) {
+  nav {
+    flex-wrap: wrap;
+  }
+
+.hamburguer {
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+  .logo {
+    heigth: 80px;
+  }
+
+  .nav-links {
+    display: none;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+  }
+
+  .nav-links li {
+    flex-basis: 100%;
+  }
+
+  .nav-links a {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .nav-links a:hover {
+    background-color: #39ffde;
+  }
+
+.nav-links .nav-cta-button {
+  padding: 30px 16px;
+  margin-left: 0;
+  border: none;
+  border-radius: 0;
+  margin-bottom: 20px;
+}
+
+  .nav-links .nav-cta-button:hover {
+    background-color: #39ffde;
+  }
+}
+
